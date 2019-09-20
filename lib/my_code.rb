@@ -1,5 +1,5 @@
 # My Code here....
-map([]){|n| n * -1}
+map{|n| n * -1}
 
 
 
