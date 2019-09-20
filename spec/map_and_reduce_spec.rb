@@ -31,6 +31,7 @@ describe 'my own reduce-like methods' do
   describe "reduce_to_total returns a running total when not given a starting point" do
     it "reduces correctly" do
       source_array = [1,2,3]
+      starting_point = 0
       expect(reduce_to_total(source_array, starting_point)).to eq(6)
     end
   end
